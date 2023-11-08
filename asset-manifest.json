@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactprojectdemo/static/css/main.4a13d493.css",
+    "main.js": "/reactprojectdemo/static/js/main.786c0086.js",
+    "static/media/rose6.jpg": "/reactprojectdemo/static/media/rose6.3f3c1ce31756efaf5c3f.jpg",
+    "static/media/rose5.jpg": "/reactprojectdemo/static/media/rose5.0de80eb6dbaa0748626b.jpg",
+    "static/media/home-img1.png": "/reactprojectdemo/static/media/home-img1.7f43e036ae06ff6ba218.png",
+    "static/media/rose3.jpg": "/reactprojectdemo/static/media/rose3.d95f472fb6735d5f9c31.jpg",
+    "static/media/rose4.jpg": "/reactprojectdemo/static/media/rose4.75ca9f232fa196912b29.jpg",
+    "static/media/rose1.jpg": "/reactprojectdemo/static/media/rose1.033e4bb16ea6a73b368d.jpg",
+    "static/media/rose2.jpg": "/reactprojectdemo/static/media/rose2.c518e23a9a8cfc4fd5e1.jpg",
+    "static/media/home-img2.png": "/reactprojectdemo/static/media/home-img2.294411a0ca64712181b1.png",
+    "index.html": "/reactprojectdemo/index.html",
+    "main.4a13d493.css.map": "/reactprojectdemo/static/css/main.4a13d493.css.map",
+    "main.786c0086.js.map": "/reactprojectdemo/static/js/main.786c0086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a13d493.css",
+    "static/js/main.786c0086.js"
+  ]
+}
