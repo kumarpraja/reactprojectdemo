@@ -1,0 +1,52 @@
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: calc(100vh - 57px);
+}
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+    h1{
+        margin: 0 0 10px 0;
+        font-size: 35px;
+        font-weight: 700;
+        color: $black-color;
+        .brand-name{
+            color: $hover-color;
+            margin-left: 5px;
+        }
+    }
+    h2{
+        font-weight: 400;
+        font-size: 20px;
+        color: $sub-header;
+    }
+    .btn-started{
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color: $hover-color;
+        border: 2px solid $hover-color;
+        &:hover{
+            background: $hover-color;
+            color: #fff;
+        }
+    }
+    .animated{
+        position: relative;
+        animation: updown 2s ease-in-out infinite alternate-reverse both;
+    }
+    @keyframes updown{
+        0%{
+            top: 10px;
+        }
+        100%{
+            top: -10px;
+        }
+    }
+}

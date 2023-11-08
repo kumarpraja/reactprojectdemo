@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #fff;
+    .navbar-brand{
+        padding: 5px;
+        background-color: greenyellow;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $barnd-color;
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    }
+    a{
+        font-size: 14px;
+        text-transform: capitalize;
+        &:hover{
+            color: $hover-color;
+        }
+        &.active{
+            font-weight: bold;
+            border-bottom: 2px solid #565387;
+        }
+    }
+}
