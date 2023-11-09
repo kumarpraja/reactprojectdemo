@@ -23,20 +23,20 @@ const Contactus = () => {
   };
   return (
     <>
-      <div className="my-5">
+      <div className="my-4">
         <h1 className="text-center">Contact Us</h1>
       </div>
-      <div className="container contact-div">
+      <div className="container contact-div mb-5">
         <div className="row">
           <div className="com-md-6 col-10 mx-auto">
             <form onSubmit={formSubmit}>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   Full Name
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="fullname"
                   value={data.fullname}
@@ -44,13 +44,13 @@ const Contactus = () => {
                   placeholder="Enter your Name"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   Phone
                 </label>
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="phone"
                   value={data.phone}
@@ -58,13 +58,13 @@ const Contactus = () => {
                   placeholder="Enter your Mobile No."
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   Email address
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="email"
                   value={data.email}
@@ -72,12 +72,12 @@ const Contactus = () => {
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlTextarea1" className="form-label">
                   Messages
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   name="msg"
                   value={data.msg}

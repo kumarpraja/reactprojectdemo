@@ -5,6 +5,8 @@ import Aboutus from "./component/Aboutus";
 import Services from "./component/Services";
 import Contactus from "./component/Contactus";
 import Error from "./component/Error";
+import Todo from "./component/Todo";
+import TodoEdit from "./component/TodoEdit";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="about" element={<Aboutus />} />
             <Route path="services" element={<Services />} />
+            <Route path="services/todo" element={<Todo />} />
+            <Route path="services/todoedit" element={<TodoEdit />} />
             <Route path="contact" element={<Contactus />} />
             <Route path="*" element={<Error />} />
           </Route>

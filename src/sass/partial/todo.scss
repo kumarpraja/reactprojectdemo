@@ -1,0 +1,54 @@
+.todo-wraper {
+  .child-div {
+    text-align: center;
+    .figure-wrap {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      figure {
+        text-align: center;
+        img {
+          height: 50px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .add-item {
+      position: relative;
+      display: inline;
+      input {
+        padding: 0 5px;
+      }
+      .add-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5px;
+        cursor: pointer;
+      }
+    }
+    .show-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      .eachitem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: bisque;
+        color: #222;
+        padding: 5px 10px;
+        width: 200px;
+        margin: 10px 0;
+        h3{
+            font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.edit-btn{
+    cursor: pointer;
+    margin-left: 5px;
+}

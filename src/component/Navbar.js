@@ -37,9 +37,16 @@ const Navbar = () => {
                         Home
                       </NavLink>
                     </li>
-                    <li className="nav-item">
-                      <NavLink className="nav-link" to="/services">
+                    <li className="nav-item dropdown">
+                      <NavLink className="nav-link  dropdown-toggle" to="/services">
+                      {/* <NavLink className="nav-link  dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> */}
                         Services
+                        {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><NavLink className="dropdown-item" to="services/todo">Todo List</NavLink></li>
+                          <li><NavLink className="dropdown-item" to="services/todoedit">Todo List Edit</NavLink></li>
+                          <li><hr className="dropdown-divider" /></li>
+                          <li><NavLink className="dropdown-item" to="services">Services</NavLink></li>
+                        </ul> */}
                       </NavLink>
                     </li>
                     <li className="nav-item">
